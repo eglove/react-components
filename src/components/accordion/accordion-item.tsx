@@ -1,6 +1,6 @@
 import { computed } from "@legendapp/state";
 import { Reactive, Show } from "@legendapp/state/react";
-import filter from "lodash/filter";
+import filter from "lodash/filter.js";
 import includes from "lodash/includes.js";
 import isNil from "lodash/isNil.js";
 import { createElement, type PropsWithChildren, type ReactNode, useContext, useId } from "react";
