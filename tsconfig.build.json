@@ -37,6 +37,7 @@
     "emitDeclarationOnly": true
   },
   "exclude": [
-    "**/*.stories.tsx"
+    "**/*.stories.tsx",
+    "src/index.css"
   ]
 }
