@@ -1,6 +1,6 @@
 import { projectBuilder } from "@ethang/project-builder/project-builder.js";
 
-await projectBuilder("react-components", "main", {
+await projectBuilder("react-components", "master", {
   isLibrary: true,
   publishDirectory: "dist",
   scripts: ["pnpm up -i --latest", "pnpm lint"],
