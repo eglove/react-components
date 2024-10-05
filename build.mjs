@@ -8,11 +8,12 @@ await projectBuilder("react-components", "master", {
     compilerOptions: {
       emitDeclarationOnly: true,
     },
-    include: ["src", "!src/**.stories.tsx"],
+    include: ["src"],
+    exclude: ["**/*.stories.tsx"],
   },
   tsupOptions: {
     bundle: true,
-    entry: ["src", "!src/**.stories.tsx"],
+    entry: ["src", "!**/*.stories.tsx"],
     format: ["esm"],
     minify: true,
     outDir: "dist",
