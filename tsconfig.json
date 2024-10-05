@@ -1,4 +1,7 @@
 {
   "extends": ["@tsconfig/vite-react", "@tsconfig/strictest"],
-  "include": [".storybook", "src"]
+  "include": [".storybook", "src"],
+  "compilerOptions": {
+    "declaration": true
+  }
 }
