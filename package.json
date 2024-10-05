@@ -6,7 +6,7 @@
   "scripts": {
     "build-storybook": "storybook build",
     "dev": "vite",
-    "lint": "eslint . --fix",
+    "lint": "eslint src --fix",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006 --no-open"
   },
