@@ -8,6 +8,7 @@
     "src"
   ],
   "compilerOptions": {
+    "declaration": true,
     "emitDeclarationOnly": true
   }
 }

@@ -60,12 +60,6 @@ importers:
       '@storybook/test':
         specifier: 8.3.5
         version: 8.3.5(storybook@8.3.5)
-      '@tsconfig/strictest':
-        specifier: ^2.0.5
-        version: 2.0.5
-      '@tsconfig/vite-react':
-        specifier: ^3.0.2
-        version: 3.0.2
       '@types/lodash':
         specifier: ^4.17.10
         version: 4.17.10
@@ -1941,12 +1935,6 @@ packages:
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
-
-  '@tsconfig/strictest@2.0.5':
-    resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
-
-  '@tsconfig/vite-react@3.0.2':
-    resolution: {integrity: sha512-AFynAtE1Un3Rko20Ghe2mVC/QWD4rStJ2PnyIZU2kzC4UyWpf1YhAEY87GojH/XPZCY8Mdt27gsYyy+6l6HV+w==}
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -7276,10 +7264,6 @@ snapshots:
   '@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0)':
     dependencies:
       '@testing-library/dom': 10.4.0
-
-  '@tsconfig/strictest@2.0.5': {}
-
-  '@tsconfig/vite-react@3.0.2': {}
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
