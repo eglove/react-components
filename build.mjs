@@ -8,7 +8,6 @@ await projectBuilder("react-components", "master", {
     compilerOptions: {
       emitDeclarationOnly: true,
     },
-    include: ["src"],
     exclude: ["**/*.stories.tsx"],
   },
   tsupOptions: {

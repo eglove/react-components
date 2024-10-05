@@ -1,7 +1,6 @@
 {
   "include": [
     "src",
-    "!src/**.stories.tsx"
   ],
   "compilerOptions": {
     "target": "ESNext",
@@ -35,5 +34,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "emitDeclarationOnly": true
-  }
+  },
+  "exclude": [
+    "**/*.stories.tsx"
+  ]
 }
