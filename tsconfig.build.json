@@ -1,6 +1,7 @@
 {
   "include": [
-    "src",
+    ".storybook",
+    "src"
   ],
   "compilerOptions": {
     "target": "ESNext",
