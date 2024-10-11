@@ -31,8 +31,8 @@ importers:
         specifier: ^9.11.1
         version: 9.12.0
       '@ethang/eslint-config':
-        specifier: ^19.11.3
-        version: 19.11.3(ertcvea6zq3niwzykbgqscym2i)
+        specifier: ^19.11.4
+        version: 19.11.4(ertcvea6zq3niwzykbgqscym2i)
       '@storybook/addon-a11y':
         specifier: ^8.3.5
         version: 8.3.5(storybook@8.3.5)
@@ -1379,8 +1379,8 @@ packages:
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@ethang/eslint-config@19.11.3':
-    resolution: {integrity: sha512-P3rugNhPvnDTtLANOlbDQijKY6zCAwKXDm0ToqQ+d+z0f80wXI7RIdOF8KW7JxXzQ+HtLCBHe6mfypl+oGJZoQ==}
+  '@ethang/eslint-config@19.11.4':
+    resolution: {integrity: sha512-SOiAPIJRAHeW1BDLMgQDA+8FMZai7u4jSgX3r1dPW72MUWz27Ma/RGvD/g64DZX1498YEC3ewmwJsRlAYaT8ig==}
     engines: {node: '>=20'}
     peerDependencies:
       '@cspell/eslint-plugin': ^8.14.4
@@ -6613,7 +6613,7 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@ethang/eslint-config@19.11.3(ertcvea6zq3niwzykbgqscym2i)':
+  '@ethang/eslint-config@19.11.4(ertcvea6zq3niwzykbgqscym2i)':
     dependencies:
       '@cspell/eslint-plugin': 8.14.4(eslint@9.12.0(jiti@2.3.1))
       '@eslint-react/eslint-plugin': 1.14.3(eslint@9.12.0(jiti@2.3.1))(typescript@5.6.2)
