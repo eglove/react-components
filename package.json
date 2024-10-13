@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
-    "@ethang/eslint-config": "^19.11.5",
+    "@ethang/eslint-config": "^19.12.1",
     "@storybook/addon-a11y": "^8.3.5",
     "@storybook/addon-essentials": "8.3.5",
     "@storybook/addon-interactions": "8.3.5",
@@ -40,7 +40,7 @@
     "@storybook/test": "8.3.5",
     "@types/lodash": "^4.17.10",
     "@types/react": "^18.3.10",
-    "@types/react-dom": "^18.3.0",
+    "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.12.0",
